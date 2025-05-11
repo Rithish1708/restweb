@@ -1,0 +1,134 @@
+res.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Roast & Toast</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-image: url("bg2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        header.banner {
+            background-color: #222;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        header.banner h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        header.banner nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header.banner nav ul li {
+            display: inline;
+        }
+
+        header.banner nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        header.banner nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        section.intro {
+            padding: 40px 20px;
+            text-align: center;
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        section.intro h2 {
+            font-size: 2em;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        section.intro p {
+            font-size: 1.1em;
+            color: #100f0f;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #222;
+            color: white;
+            position: bottom;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header.banner nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            section.intro {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="banner">
+        <h1>Welcome to Roast & Toast </h1>
+        <nav>
+            <ul>
+                <li><a href="res.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Where every flavor tells a story.</h2>
+        <h1>Hundreds of flavors under one roof.</h1>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+
+        <p>© Rithish</p>
+    </footer>
+</body>
+
+</html>
